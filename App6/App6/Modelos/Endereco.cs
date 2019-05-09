@@ -44,11 +44,6 @@ namespace App6.Modelos
         }
 
         // construtor da classe
-        public Endereco()
-        {
-        }
-
-        // construtor da classe
         public Endereco(String rua, String cidade)
         {
             this.rua = rua;
@@ -58,7 +53,7 @@ namespace App6.Modelos
         public List<string> Comunicar()
         {
             return new List<String>() {
-                "Enviar correio para " + this.rua + " " + this.cidade
+                "Enviar correio para " + this.rua + " de " + this.cidade
             };
         }
     }

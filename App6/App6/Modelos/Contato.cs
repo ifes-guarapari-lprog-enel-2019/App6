@@ -6,8 +6,6 @@ namespace App6.Modelos
 {
     interface Contato
     {
-
         List<String> Comunicar();
-
     }
 }

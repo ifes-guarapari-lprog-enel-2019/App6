@@ -26,11 +26,6 @@ namespace App6.Modelos
         }
 
         // construtor da classe
-        public Telefone()
-        {
-        }
-
-        // construtor da classe
         public Telefone(int numero)
         {
             this.numero = numero;

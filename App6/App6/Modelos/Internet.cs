@@ -44,11 +44,6 @@ namespace App6.Modelos
         }
 
         // construtor da classe
-        public Internet()
-        {
-        }
-
-        // construtor da classe
         public Internet(String email, String site)
         {
             this.email = email;
